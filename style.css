@@ -6,7 +6,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.bg-banniere {
+    background-image: url(img/la-chouette-agence-banniere.jpg);
+    object-fit: cover;
+    background-size: cover !important;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -681,7 +685,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
