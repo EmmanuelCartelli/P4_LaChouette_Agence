@@ -10,6 +10,7 @@ body {
     background-image: url(img/la-chouette-agence-banniere.jpg);
     object-fit: cover;
     background-size: cover !important;
+    -webkit-background-size: cover !important;
     /*le commit ne semble pas marcher*/
 }
 a,
